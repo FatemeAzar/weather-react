@@ -1,15 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
-import axios from "axios";
 import Search from "./Search";
 import React from "react";
-import ReactDOM from "react-dom";
 
 function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
       <Search />
+      <p>
+        <a href="https://github.com/FatemeAzar/weather-react">
+          Open-source code
+        </a>{" "}
+        by Fatemeh Azar
+      </p>
     </div>
   );
 }
